@@ -11,16 +11,16 @@ const NavigationItem = ({ data }: Props) => {
 
   return (
     <div>
-      <li className="text-2xl tracking-wider cursor-pointer transition duration-150 hover:text-primary">
+      <li className="text-2xl xl:text-3xl tracking-wider cursor-pointer transition duration-150 hover:text-primary">
         {data.name}
       </li>
       <div className="w-full flex gap-2">
         <span
-          className={`w-1/12 h-0.5 ${
+          className={`w-1/12 xl:w-24 h-0.5 xl:h-1.5 ${
             pathname.includes(data.url) ? "bg-primary" : "bg-secondary"
           } `}
         ></span>
-        <span className="w-5/6 h-0.5 bg-gray-600"></span>
+        <span className="w-5/6 xl:w-full h-0.5 xl:h-1.5 bg-gray-600"></span>
       </div>
     </div>
   );
