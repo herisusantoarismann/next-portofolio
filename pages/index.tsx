@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
-import Image from "next/image";
 import Wheater from "../data/wheater.png";
+import LayoutMain from "../Layout/Main";
 import Header from "../components/Header/Header";
-import Main from "../components/Main/Main";
 import BottomLine from "../components/BottomLine/BottomLine";
 import ProjectList from "../components/Project/ProjectList";
+import Content from "../components/Content/Content";
 
 const projects = [
   {
@@ -24,16 +24,16 @@ const projects = [
 const Home: NextPage = () => {
   return (
     <>
-      <div className="bg-base text-white min-h-screen flex flex-col justify-between">
+      <LayoutMain>
         <Header />
-        <Main>
+        <Content>
           <h1 className="text-5xl text-center text-primary">Heri Susanto</h1>
           <h1 className="text-5xl text-center text-primary">Arisman</h1>
           <span className="h-1.5 w-1/12 bg-secondary"></span>
           <h2 className="text-xl text-secondary">Frontend Developer</h2>
-        </Main>
+        </Content>
         <BottomLine />
-      </div>
+      </LayoutMain>
       <ProjectList projects={projects} />
     </>
   );

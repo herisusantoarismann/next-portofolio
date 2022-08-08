@@ -4,7 +4,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-const Main = ({ children }: Props) => {
+const Content = ({ children }: Props) => {
   return (
     <main className="flex justify-center items-center flex-col gap-3">
       {children}
@@ -12,4 +12,4 @@ const Main = ({ children }: Props) => {
   );
 };
 
-export default Main;
+export default Content;
