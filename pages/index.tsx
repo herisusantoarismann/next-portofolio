@@ -1,16 +1,14 @@
 import type { NextPage } from "next";
 import Image from "next/image";
 import Wheater from "../data/wheater.png";
-import { FaAngleDown, FaBars } from "react-icons/fa";
+import { FaAngleDown } from "react-icons/fa";
+import Header from "../components/Header/Header";
 
 const Home: NextPage = () => {
   return (
     <>
       <div className="bg-base text-white min-h-screen flex flex-col justify-between">
-        <header className="px-3 py-2 flex justify-between items-center">
-          <div className="font-bold text-2xl">L7</div>
-          <FaBars className="text-2xl" />
-        </header>
+        <Header />
         <main className="flex justify-center items-center flex-col gap-3">
           <h1 className="text-5xl text-center text-primary">Heri Susanto</h1>
           <h1 className="text-5xl text-center text-primary">Arisman</h1>
