@@ -14,7 +14,7 @@ const dataNavigation = [
 
 const NavigationList = () => {
   return (
-    <ul className="px-3">
+    <ul className="px-3 md:px-6">
       {dataNavigation.map((nav: TNavigation, i: number) => {
         return <NavigationItem data={nav} key={i} />;
       })}

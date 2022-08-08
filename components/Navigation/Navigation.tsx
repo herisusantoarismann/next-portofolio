@@ -15,7 +15,7 @@ const Navigation = ({ menu, setMenu }: Props) => {
         menu ? "translate-y-0" : "-translate-y-full"
       } fixed h-screen inset-0 bg-base bg-opacity-80 z-10 transition duration-300 ease-in-out`}
     >
-      <div className="py-2 px-3 flex justify-between items-center">
+      <div className="py-2 px-3 md:px-6 md:py-4 flex justify-between items-center">
         <h1 className="font-bold text-2xl">L7</h1>
         <FaTimes className="text-2xl" onClick={() => setMenu(false)} />
       </div>

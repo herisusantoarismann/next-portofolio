@@ -14,7 +14,7 @@ const NavigationItem = ({ data }: Props) => {
       <li className="text-2xl tracking-wider">{data.name}</li>
       <div className="w-full flex gap-2">
         <span
-          className={`w-1/6 h-0.5 ${
+          className={`w-1/12 h-0.5 ${
             pathname.includes(data.url) ? "bg-primary" : "bg-secondary"
           } `}
         ></span>

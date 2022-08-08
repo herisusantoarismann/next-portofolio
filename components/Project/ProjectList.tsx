@@ -13,7 +13,7 @@ interface Props {
 
 const ProjectList = ({ projects }: Props) => {
   return (
-    <div className="relative">
+    <div className="bg-base relative grid grid-cols-1 md:grid-cols-2">
       {projects.map((project: Project, i: number) => {
         return <ProjectItem project={project} number={i} key={i} />;
       })}
