@@ -14,7 +14,7 @@ const dataNavigation = [
 
 const NavigationList = () => {
   return (
-    <ul className="px-3 md:px-6">
+    <ul className="px-3 md:px-6 flex flex-col gap-2 md:gap-3 lg:gap-4">
       {dataNavigation.map((nav: TNavigation, i: number) => {
         return <NavigationItem data={nav} key={i} />;
       })}

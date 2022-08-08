@@ -10,8 +10,10 @@ const NavigationItem = ({ data }: Props) => {
   const { pathname } = useRouter();
 
   return (
-    <>
-      <li className="text-2xl tracking-wider">{data.name}</li>
+    <div>
+      <li className="text-2xl tracking-wider cursor-pointer transition duration-150 hover:text-primary">
+        {data.name}
+      </li>
       <div className="w-full flex gap-2">
         <span
           className={`w-1/12 h-0.5 ${
@@ -20,7 +22,7 @@ const NavigationItem = ({ data }: Props) => {
         ></span>
         <span className="w-5/6 h-0.5 bg-gray-600"></span>
       </div>
-    </>
+    </div>
   );
 };
 

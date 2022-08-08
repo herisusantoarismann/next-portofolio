@@ -16,8 +16,11 @@ const Navigation = ({ menu, setMenu }: Props) => {
       } fixed h-screen inset-0 bg-base bg-opacity-80 z-10 transition duration-300 ease-in-out`}
     >
       <div className="py-2 px-3 md:px-6 md:py-4 flex justify-between items-center">
-        <h1 className="font-bold text-2xl">L7</h1>
-        <FaTimes className="text-2xl" onClick={() => setMenu(false)} />
+        <h1 className="font-bold text-2xl cursor-pointer">L7</h1>
+        <FaTimes
+          className="text-2xl cursor-pointer transition duration-150 hover:text-primary"
+          onClick={() => setMenu(false)}
+        />
       </div>
       <NavigationList />
       <Footer />
