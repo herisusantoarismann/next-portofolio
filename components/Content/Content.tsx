@@ -6,7 +6,7 @@ interface Props {
 
 const Content = ({ children }: Props) => {
   return (
-    <main className="flex justify-center items-center flex-col gap-3">
+    <main className="flex justify-center items-center flex-col gap-3 cursor-default">
       {children}
     </main>
   );
