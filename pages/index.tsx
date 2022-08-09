@@ -1,29 +1,36 @@
 import type { NextPage } from "next";
 import Wheater from "../data/wheater.png";
-import LayoutMain from "../Layout/Main";
+import LayoutMain from "../layouts/Main";
 import Header from "../components/Header/Header";
 import BottomLine from "../components/BottomLine/BottomLine";
 import ProjectList from "../components/Project/ProjectList";
 import Content from "../components/Content/Content";
+import Head from "next/head";
 
 const projects = [
   {
     name: "Wheater App 1",
     image: Wheater,
+    stack: ["Vue Js", "Tailwindcss"],
   },
   {
     name: "Wheater App 2",
     image: Wheater,
+    stack: ["React Js", "Material UI"],
   },
   {
     name: "Wheater App 3",
     image: Wheater,
+    stack: ["Next Js", "Tailwindcss"],
   },
 ];
 
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>L7 | Home</title>
+      </Head>
       <LayoutMain>
         <Header />
         <Content>

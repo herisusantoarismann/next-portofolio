@@ -5,6 +5,7 @@ import ProjectItem from "./ProjectItem";
 export interface Project {
   name: string;
   image: StaticImageData;
+  stack: string[];
 }
 
 interface Props {
