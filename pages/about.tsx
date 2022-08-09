@@ -5,6 +5,7 @@ import React from "react";
 import LayoutMain from "../layouts/Main";
 
 import Profile from "../data/profile.jpg";
+import AboutList from "../components/About/AboutList";
 
 const About: NextPage = () => {
   return (
@@ -24,32 +25,7 @@ const About: NextPage = () => {
           A guy who likes errors and solves problems with coding.
         </p>
       </LayoutMain>
-      <div className="bg-base text-white px-4 py-6 lg:py-12">
-        <div className="md:w-3/4 xl:w-2/4 md:mx-auto flex flex-col md:flex-row gap-4 lg:gap-24">
-          <div className="md:flex-1">
-            <h2 className="text-lg md:text-xl xl:text-2xl">About</h2>
-            <div className="w-full flex gap-2">
-              <span className="w-1/6 xl:w-1/6 h-0.5 lg:h-1 bg-primary"></span>
-              <span className="w-5/6 xl:w-5/6 h-0.5 lg:h-1 bg-gray-600"></span>
-            </div>
-            <p className="tracking-widest lg:text-lg xl:text-xl">
-              As a frontend developer I like to turn a design into simple and
-              fast code. Challenging algorithm problems is fun for me. I love to
-              see and live anything structured and planned.
-            </p>
-          </div>
-          <div className="md:flex-1">
-            <h2 className="text-lg md:text-xl xl:text-2xl">Tech Stack</h2>
-            <div className="w-full flex gap-2">
-              <span className="w-1/6 xl:w-1/6 h-0.5 lg:h-1 bg-primary"></span>
-              <span className="w-5/6 xl:w-5/6 h-0.5 lg:h-1 bg-gray-600"></span>
-            </div>
-            <p className="tracking-widest lg:text-lg xl:text-xl">
-              HTML, CSS, Javascript, React JS, Vue JS, Next JS, Typescript
-            </p>
-          </div>
-        </div>
-      </div>
+      <AboutList />
     </>
   );
 };
