@@ -1,27 +1,57 @@
 import type { NextPage } from "next";
 import Wheater from "../data/wheater.png";
 import LayoutMain from "../layouts/Main";
-import Header from "../components/Header/Header";
-import BottomLine from "../components/BottomLine/BottomLine";
 import ProjectList from "../components/Project/ProjectList";
-import Content from "../components/Content/Content";
 import Head from "next/head";
 
-const projects = [
+export const projects = [
   {
     name: "Wheater App 1",
+    description:
+      "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
+    url: "wheaterapp-1",
     image: Wheater,
-    stack: ["Vue Js", "Tailwindcss"],
+    stack: ["Vue JS", "Tailwindcss"],
   },
   {
     name: "Wheater App 2",
+    description:
+      "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
+    url: "wheaterapp-2",
     image: Wheater,
-    stack: ["React Js", "Material UI"],
+    stack: ["Vue JS", "Material UI"],
   },
   {
     name: "Wheater App 3",
+    description:
+      "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
+    url: "whaterapp-3",
     image: Wheater,
-    stack: ["Next Js", "Tailwindcss"],
+    stack: ["Vue JS", "Tailwindcss"],
+  },
+  {
+    name: "Wheater App 4",
+    description:
+      "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
+    url: "wheaterapp-4",
+    image: Wheater,
+    stack: ["Vue JS", "Material UI"],
+  },
+  {
+    name: "Wheater App 5",
+    description:
+      "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
+    url: "whaterapp-5",
+    image: Wheater,
+    stack: ["Vue JS", "Tailwindcss"],
+  },
+  {
+    name: "Wheater App 6",
+    description:
+      "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
+    url: "wheaterapp-6",
+    image: Wheater,
+    stack: ["Vue JS", "Material UI"],
   },
 ];
 

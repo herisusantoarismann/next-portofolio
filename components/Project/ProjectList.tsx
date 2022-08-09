@@ -6,6 +6,8 @@ export interface Project {
   name: string;
   image: StaticImageData;
   stack: string[];
+  url: string;
+  description: string;
 }
 
 interface Props {
