@@ -32,20 +32,16 @@ const Home: NextPage = () => {
         <title>L7 | Home</title>
       </Head>
       <LayoutMain>
-        <Header />
-        <Content>
-          <h1 className="text-5xl md:text-6xl xl:text-7xl text-center text-primary">
-            Heri Susanto
-          </h1>
-          <h1 className="text-5xl md:text-6xl xl:text-7xl text-center text-primary">
-            Arisman
-          </h1>
-          <span className="h-1.5 w-1/12 xl:w-24 bg-secondary"></span>
-          <h2 className="text-xl text-secondar md:text-2xl xl:text-3xl">
-            Frontend Developer
-          </h2>
-        </Content>
-        <BottomLine />
+        <h1 className="text-5xl md:text-6xl xl:text-7xl text-center text-primary">
+          Heri Susanto
+        </h1>
+        <h1 className="text-5xl md:text-6xl xl:text-7xl text-center text-primary">
+          Arisman
+        </h1>
+        <span className="h-1.5 w-1/12 xl:w-24 bg-secondary"></span>
+        <h2 className="text-xl text-secondar md:text-2xl xl:text-3xl">
+          Frontend Developer
+        </h2>
       </LayoutMain>
       <ProjectList projects={projects} />
     </>
