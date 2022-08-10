@@ -6,6 +6,7 @@ import Head from "next/head";
 
 export const projects = [
   {
+    id: 0,
     name: "Wheater App 1",
     description:
       "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
@@ -14,6 +15,7 @@ export const projects = [
     stack: ["Vue JS", "Tailwindcss"],
   },
   {
+    id: 1,
     name: "Wheater App 2",
     description:
       "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
@@ -22,6 +24,7 @@ export const projects = [
     stack: ["Vue JS", "Material UI"],
   },
   {
+    id: 2,
     name: "Wheater App 3",
     description:
       "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
@@ -30,6 +33,7 @@ export const projects = [
     stack: ["Vue JS", "Tailwindcss"],
   },
   {
+    id: 3,
     name: "Wheater App 4",
     description:
       "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
@@ -38,6 +42,7 @@ export const projects = [
     stack: ["Vue JS", "Material UI"],
   },
   {
+    id: 4,
     name: "Wheater App 5",
     description:
       "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
@@ -46,6 +51,7 @@ export const projects = [
     stack: ["Vue JS", "Tailwindcss"],
   },
   {
+    id: 5,
     name: "Wheater App 6",
     description:
       "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
