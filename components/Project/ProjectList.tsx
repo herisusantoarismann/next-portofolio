@@ -9,6 +9,7 @@ export interface Project {
   image: StaticImageData;
   stack: string[];
   url: string;
+  site: string;
   description: string;
 }
 

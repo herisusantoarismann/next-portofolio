@@ -47,9 +47,13 @@ const Detail = () => {
             <p className="text-center w-3/4 xl:w-2/4 tracking-widest text-lg md:text-xl">
               {data.description}
             </p>
-            <button className="py-1 px-4 bg-primary text-base lg:text-xl font-semibold border border-transparent tracking-wider rounded transition duration-150 hover:bg-transparent hover:border hover:border-primary hover:text-primary">
+            <a
+              className="py-1 px-4 bg-primary text-base lg:text-xl font-semibold border border-transparent tracking-wider rounded transition duration-150 cursor-pointer hover:bg-transparent hover:border hover:border-primary hover:text-primary"
+              target="_blank"
+              href={data.site}
+            >
               Visit Site
-            </button>
+            </a>
           </MainLayout>
           <div className="bg-base pb-3 lg:pb-6 flex flex-col gap-4">
             <div className="w-full">

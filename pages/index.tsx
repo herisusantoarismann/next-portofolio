@@ -11,6 +11,7 @@ export const projects = [
     description:
       "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
     url: "wheaterapp-1",
+    site: "https://vue-wheater-app.vercel.app/",
     image: Wheater,
     stack: ["Vue JS", "Tailwindcss"],
   },
@@ -20,6 +21,7 @@ export const projects = [
     description:
       "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
     url: "wheaterapp-2",
+    site: "https://h-quran-app.netlify.app/",
     image: Wheater,
     stack: ["Vue JS", "Material UI"],
   },
@@ -29,6 +31,7 @@ export const projects = [
     description:
       "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
     url: "whaterapp-3",
+    site: "https://vue-wheater-app.vercel.app/",
     image: Wheater,
     stack: ["Vue JS", "Tailwindcss"],
   },
@@ -38,6 +41,7 @@ export const projects = [
     description:
       "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
     url: "wheaterapp-4",
+    site: "https://h-quran-app.netlify.app/",
     image: Wheater,
     stack: ["Vue JS", "Material UI"],
   },
@@ -47,6 +51,7 @@ export const projects = [
     description:
       "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
     url: "whaterapp-5",
+    site: "https://vue-wheater-app.vercel.app/",
     image: Wheater,
     stack: ["Vue JS", "Tailwindcss"],
   },
@@ -56,6 +61,7 @@ export const projects = [
     description:
       "The weather app is an app that allows users to view conditions, forecasts, temperatures and related metrics from a variety of locations.",
     url: "wheaterapp-6",
+    site: "https://h-quran-app.netlify.app/",
     image: Wheater,
     stack: ["Vue JS", "Material UI"],
   },
