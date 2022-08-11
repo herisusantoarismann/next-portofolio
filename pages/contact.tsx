@@ -38,6 +38,7 @@ const Contact = () => {
                 className="tracking-wider transition duration-300 cursor-pointer hover:text-primary"
                 href="https://www.linkedin.com/in/herisusantoarisman/"
                 target="_blank"
+                rel="noreferrer"
               >
                 https://www.linkedin.com/in/herisusantoarisman/
               </a>
@@ -56,6 +57,7 @@ const Contact = () => {
                 className="tracking-wider transition duration-300 cursor-pointer hover:text-primary"
                 href="https://github.com/herisusantoarismann"
                 target="_blank"
+                rel="noreferrer"
               >
                 https://github.com/herisusantoarismann
               </a>

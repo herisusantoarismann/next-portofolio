@@ -15,7 +15,12 @@ const About: NextPage = () => {
       </Head>
       <LayoutMain withArrow>
         <div className="w-24 h-24 md:w-32 md:h-32 xl:w-48 xl:h-48">
-          <Image src={Profile} layout={"responsive"} className="rounded-full" />
+          <Image
+            src={Profile}
+            layout={"responsive"}
+            className="rounded-full"
+            alt="photo-profile"
+          />
         </div>
         <h1 className="text-3xl md:text-4xl lg:text-6xl text-primary">
           Heri Susanto Arisman
