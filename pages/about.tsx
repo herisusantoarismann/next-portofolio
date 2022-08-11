@@ -11,7 +11,7 @@ const About: NextPage = () => {
   return (
     <>
       <Head>
-        <title>L7 | About</title>
+        <title>Heri S.A. | About</title>
       </Head>
       <LayoutMain withArrow>
         <div className="w-24 h-24 md:w-32 md:h-32 xl:w-48 xl:h-48">

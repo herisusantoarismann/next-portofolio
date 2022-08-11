@@ -71,7 +71,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>L7 | Home</title>
+        <title>Heri S.A. | Home</title>
       </Head>
       <LayoutMain>
         <h1 className="text-5xl md:text-6xl xl:text-7xl text-center text-primary">

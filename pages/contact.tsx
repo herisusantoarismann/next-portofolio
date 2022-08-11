@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>L7 | Contact</title>
+        <title>Heri S.A. | Contact</title>
       </Head>
       <MainLayout>
         <h1 className="text-3xl md:text-4xl lg:text-6xl text-primary">
