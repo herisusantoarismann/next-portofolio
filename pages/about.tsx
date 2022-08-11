@@ -13,7 +13,7 @@ const About: NextPage = () => {
       <Head>
         <title>L7 | About</title>
       </Head>
-      <LayoutMain>
+      <LayoutMain withArrow>
         <div className="w-24 h-24 md:w-32 md:h-32 xl:w-48 xl:h-48">
           <Image src={Profile} layout={"responsive"} className="rounded-full" />
         </div>

@@ -5,14 +5,15 @@ import Header from "../components/Header/Header";
 
 interface Props {
   children: React.ReactNode;
+  withArrow?: boolean;
 }
 
-const Main = ({ children }: Props) => {
+const Main = ({ children, withArrow = false }: Props) => {
   return (
     <div className="bg-base text-white min-h-screen flex flex-col justify-between">
       <Header />
       <Content>{children}</Content>
-      <BottomLine />
+      <BottomLine withArrow={withArrow}/>
     </div>
   );
 };

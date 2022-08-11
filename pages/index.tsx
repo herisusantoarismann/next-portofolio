@@ -73,7 +73,7 @@ const Home: NextPage = () => {
       <Head>
         <title>L7 | Home</title>
       </Head>
-      <LayoutMain>
+      <LayoutMain withArrow>
         <h1 className="text-5xl md:text-6xl xl:text-7xl text-center text-primary">
           Heri Susanto
         </h1>

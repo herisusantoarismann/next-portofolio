@@ -1,10 +1,16 @@
 import React from "react";
 import { FaAngleDown } from "react-icons/fa";
 
-const BottomLine = () => {
+interface Props {
+  withArrow?: boolean;
+}
+
+const BottomLine = ({ withArrow = false }: Props) => {
   return (
     <div className="w-full flex justify-center flex-col items-center">
-      <FaAngleDown className="text-center text-4xl animate-bounce" />
+      {withArrow && (
+        <FaAngleDown className="text-center text-4xl animate-bounce" />
+      )}
       <span className="w-full h-2 bg-primary"></span>
     </div>
   );
