@@ -3,6 +3,10 @@ import Head from "next/head";
 import MainLayout from "../layouts/Main";
 
 const Contact = () => {
+  const openResume = () => {
+    window.open("/cv.pdf");
+  };
+
   return (
     <>
       <Head>
@@ -29,12 +33,14 @@ const Contact = () => {
               <span className="w-1/6  h-0.5 lg:h-1 bg-primary"></span>
               <span className="w-5/6  h-0.5 lg:h-1 bg-gray-600"></span>
             </div>
-            <div
-              className={`text-secondary xl:text-xl transition duration-400`}
-            >
-              <p className="tracking-wider">
+            <div className={`relative text-secondary xl:text-xl`}>
+              <a
+                className="tracking-wider transition duration-300 cursor-pointer hover:text-primary"
+                href="https://www.linkedin.com/in/herisusantoarisman/"
+                target="_blank"
+              >
                 https://www.linkedin.com/in/herisusantoarisman/
-              </p>
+              </a>
             </div>
           </div>
           <div className="lg:flex-1">
@@ -46,13 +52,17 @@ const Contact = () => {
             <div
               className={`text-secondary xl:text-xl transition duration-400`}
             >
-              <p className="tracking-wider">
+              <a
+                className="tracking-wider transition duration-300 cursor-pointer hover:text-primary"
+                href="https://github.com/herisusantoarismann"
+                target="_blank"
+              >
                 https://github.com/herisusantoarismann
-              </p>
+              </a>
             </div>
           </div>
           <div className="lg:flex-1">
-            <p className="text-secondary md:text-lg xl:text-2xl">Resume </p>
+            <p className="text-secondary md:text-lg xl:text-2xl">Resume</p>
             <div className="w-full flex gap-2">
               <span className="w-1/6  h-0.5 lg:h-1 bg-primary"></span>
               <span className="w-5/6  h-0.5 lg:h-1 bg-gray-600"></span>
@@ -60,7 +70,12 @@ const Contact = () => {
             <div
               className={`text-secondary xl:text-xl transition duration-400`}
             >
-              <p className="tracking-wider">Download Resume</p>
+              <p
+                className="tracking-wider transition duration-300 cursor-pointer hover:text-primary"
+                onClick={() => openResume()}
+              >
+                Download Resume
+              </p>
             </div>
           </div>
         </div>
