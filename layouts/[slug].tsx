@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import MainLayout from "../layouts/Main";
+import MainLayout from "./Main";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import { Project } from "../components/Project/ProjectList";
-import { projects } from ".";
+// import { projects } from "../pages";
 import { useRouter } from "next/router";
 import Head from "next/head";
 import Link from "next/link";
@@ -21,13 +21,13 @@ const Detail = () => {
   });
   const { query } = useRouter();
 
-  React.useEffect(() => {
-    projects.map((project: Project) => {
-      if (project.url === query.slug) {
-        setData(project);
-      }
-    });
-  }, [query.slug]);
+  // React.useEffect(() => {
+  //   projects.map((project: Project) => {
+  //     if (project.url === query.slug) {
+  //       setData(project);
+  //     }
+  //   });
+  // }, [query.slug]);
 
   return (
     <>
@@ -77,7 +77,7 @@ const Detail = () => {
                 </p>
               </div>
             </div>
-            <div
+            {/* <div
               className={`px-2 lg:px-6 mt-6 lg:mt-12 text-secondary flex ${
                 data.id !== 0 ? "justify-between" : "justify-end"
               }`}
@@ -146,7 +146,7 @@ const Detail = () => {
                   </div>
                 </Link>
               )}
-            </div>
+            </div> */}
           </div>
         </>
       ) : (
