@@ -11,12 +11,14 @@ const Header = () => {
   return (
     <header className="px-3 py-2 md:px-6 md:py-4 flex justify-between items-center">
       <Link href={"/"}>
-        <Image
-          src={Logo}
-          alt="logo"
-          className="filter invert"
-          layout="responsive"
-        />
+        <div className="w-6 cursor-pointer">
+          <Image
+            src={Logo}
+            alt="logo"
+            className="filter invert"
+            layout="responsive"
+          />
+        </div>
       </Link>
       <FaBars
         className="text-2xl lg:text-4xl cursor-pointer transition duration-150 hover:text-primary"
