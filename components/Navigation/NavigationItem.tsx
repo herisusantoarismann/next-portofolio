@@ -12,10 +12,10 @@ const NavigationItem = ({ data }: Props) => {
 
   return (
     <Link href={data.url} passHref>
-      <div>
-        <li className="text-2xl xl:text-3xl tracking-wider cursor-pointer transition duration-150 hover:text-primary">
+      <li>
+        <div className="text-2xl xl:text-3xl tracking-wider cursor-pointer transition duration-150 hover:text-primary">
           {data.name}
-        </li>
+        </div>
         <div className="w-full flex gap-2">
           <span
             className={`w-1/12 xl:w-24 h-0.5 xl:h-1.5 ${
@@ -24,7 +24,7 @@ const NavigationItem = ({ data }: Props) => {
           ></span>
           <span className="w-5/6 xl:w-full h-0.5 xl:h-1.5 bg-gray-600"></span>
         </div>
-      </div>
+      </li>
     </Link>
   );
 };
