@@ -9,6 +9,7 @@ export interface TNavigation {
 const dataNavigation = [
   { name: "Home", url: "/" },
   { name: "About", url: "/about" },
+  { name: "Portofolio", url: "/portofolio" },
   { name: "Contact", url: "/contact" },
 ];
 
