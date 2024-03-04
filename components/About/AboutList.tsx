@@ -56,9 +56,9 @@ const AboutList = () => {
             <span className="w-5/6 xl:w-5/6 h-0.5 lg:h-1 bg-gray-600"></span>
           </div>
           <div className="space-y-6">
-            {work_experiences.map((item) => {
+            {work_experiences.map((item, index) => {
               return (
-                <div className="tracking-widest">
+                <div className="tracking-widest" key={index}>
                   <div className="flex items-center gap-1">
                     <h4 className="lg:text-lg">{item.job}</h4>|
                     <span className="text-sm lg:text-normal">
@@ -74,9 +74,12 @@ const AboutList = () => {
                     </span>
                   </div>
                   <div className="text-xs lg:text-sm mt-1 flex items-center gap-2">
-                    {item.skills.map((skill) => {
+                    {item.skills.map((skill, index) => {
                       return (
-                        <span className="px-2 py-0.5 rounded-full border border-white">
+                        <span
+                          className="px-2 py-0.5 rounded-full border border-white"
+                          key={index}
+                        >
                           {skill}
                         </span>
                       );
