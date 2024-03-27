@@ -22,11 +22,9 @@ const ProjectList = ({ projects }: Props) => {
     <div className="bg-base relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       {projects.map((project: Project, i: number) => {
         return (
-          <Link href={project.url} key={i}>
-            <a>
-              <ProjectItem project={project} number={i} />
-            </a>
-          </Link>
+          <a href={project.url} key={i} target="_blank">
+            <ProjectItem project={project} number={i} />
+          </a>
         );
       })}
     </div>

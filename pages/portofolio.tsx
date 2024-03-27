@@ -9,6 +9,9 @@ import UKMDigital from "../data/ukmdigital.png";
 import WheaterApp from "../data/wheater.png";
 import QuizApp from "../data/quiz.png";
 import GuessColor from "../data/quesscolor.png";
+import QuranApp from "../data/quran-app.png";
+import GithubProfile from "../data/github-profile.png";
+import SimpleCoffeeListing from "../data/simple-coffee-listing.png";
 
 export const projects = [
   {
@@ -65,6 +68,33 @@ export const projects = [
     site: "https://react-guesscolor.vercel.app/",
     image: GuessColor,
     stack: ["React JS"],
+  },
+  {
+    id: 6,
+    name: "Quran App",
+    description: "Quran App",
+    url: "https://h-quran-app.netlify.app/",
+    site: "https://h-quran-app.netlify.app/",
+    image: QuranApp,
+    stack: ["React JS", "Tailwinds"],
+  },
+  {
+    id: 7,
+    name: "Github Profile",
+    description: "Github Profile",
+    url: "https://github-profile-self.vercel.app/",
+    site: "https://github-profile-self.vercel.app/",
+    image: GithubProfile,
+    stack: ["React JS", "Tailwinds"],
+  },
+  {
+    id: 7,
+    name: "Simple Coffee Listing",
+    description: "Simple Coffee Listing",
+    url: "https://simple-coffee-listing-two.vercel.app/",
+    site: "https://simple-coffee-listing-two.vercel.app/",
+    image: SimpleCoffeeListing,
+    stack: ["React JS", "Tailwinds"],
   },
 ];
 
