@@ -40,7 +40,7 @@ export const projects = [
     url: "https://ukm.digital/",
     site: "https://ukm.digital/",
     image: UKMDigital,
-    stack: ["Vue JS", "Tailwindcss", "Codeigniter"],
+    stack: ["Vue JS", "Tailwindcss", "Codeigniter 3"],
   },
   {
     id: 3,
